@@ -1,0 +1,17 @@
+cpp-blackjack-game/
+├── .github/
+│   └── workflows/
+│       └── build.yml          # GitHub Actions C++ build verification
+├── include/                   # Header files (.h / .hpp)
+│   ├── Card.hpp
+│   ├── Deck.hpp
+│   └── Hand.hpp
+├── src/                       # Source files (.cpp)
+│   ├── Card.cpp
+│   ├── Deck.cpp
+│   ├── Hand.cpp
+│   └── main.cpp
+├── .gitignore                 # Specifies intentionally untracked files
+├── CMakeLists.txt             # Modern CMake build system configuration
+├── LICENSE                    # MIT Open Source License
+└── README.md                  # Comprehensive repository documentation
